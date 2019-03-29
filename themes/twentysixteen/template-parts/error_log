@@ -1,0 +1,2 @@
+[05-Dec-2018 08:31:01 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentysixteen/template-parts/content-single.php on line 11
+[05-Dec-2018 10:04:45 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentysixteen/template-parts/content-single.php on line 11

@@ -1,0 +1,12 @@
+[14-Sep-2018 07:36:32 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/content-link.php on line 13
+[14-Sep-2018 19:50:48 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/content.php on line 13
+[15-Sep-2018 00:59:56 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/index.php on line 17
+[15-Sep-2018 06:02:57 UTC] PHP Fatal error:  Call to undefined function _e() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/author-bio.php on line 12
+[15-Sep-2018 06:57:26 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/archive.php on line 19
+[15-Sep-2018 08:53:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/404.php on line 10
+[20-Sep-2018 19:16:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/404.php on line 10
+[25-Sep-2018 00:27:24 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/404.php on line 10
+[25-Sep-2018 00:27:36 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/404.php on line 10
+[04-Feb-2019 17:03:06 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/404.php on line 10
+[13-Feb-2019 10:58:32 UTC] PHP Fatal error:  Call to undefined function the_ID() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/content-link.php on line 13
+[16-Feb-2019 03:00:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyfifteen/index.php on line 17

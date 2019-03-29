@@ -1,0 +1,1072 @@
+@font-face {
+    font-family: negative-semibold;
+    src: url(../fonts/signika.negative-semibold.ttf);
+}
+@font-face {
+    font-family: negative-light;
+    src: url(../fonts/signika.negative-light.ttf);
+}
+.navbar {
+    padding-top: 2px;
+    padding-bottom: 20px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background: #fff;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.navbar .purple-line{
+  width: 2px;
+  height: 18px;
+  background-color: #433c9e;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+.navbar-nav  li a {
+    color: #5b5b5b !important;
+}
+.navbar-nav  li a:hover {
+    color: #000 !important;
+}
+.navbar-header{
+  min-height: 70px;
+}
+.logo{
+  min-height: 60px;
+  max-width: 180px;
+}
+#myNavbar{
+  margin-top: 15px;
+}
+.purpleLine{
+  background: #5A51AB;
+  height: 4px;
+  width: 90px;
+  margin: auto;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+.whiteLine{
+  background: #fff;
+  height: 4px;
+  width: 90px;
+  margin: auto;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  display: inline-block;
+}
+.purple-button{
+  font-family: negative-semibold;
+  background: #39519e;
+  color: #fff!important;
+  font-size: 2.2em;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 30px 0px;
+  display: inline-block;
+}
+.purple-button:hover{
+  text-decoration: none;
+  opacity: .8;
+}
+.dark-button{
+  font-family: negative-semibold;
+  background: #252525;
+  color: #fff!important;
+  font-size: 2.2em;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 30px 0px;
+  display: inline-block;
+}
+.dark-button:hover{
+  text-decoration: none;
+  opacity: .8;
+}
+
+/* Landing page design */
+header.more-business{
+  position: relative;
+  background-color: #000000;
+  background: url("../images/more-business.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+header.more-business p{
+  font-size: 1.3em;
+  color: #3A3A3A;
+  padding: 5px;
+}
+header.more-business .heading{
+  font-family: negative-semibold;
+  font-size:3.8em;
+}
+header.keepup{
+  position: relative;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+header.keepup .heading{
+  font-family: negative-semibold;
+  font-size:2.8em;
+  margin: 0;
+  width: 94%;
+  color: #585858;
+}
+header.keepup .infotxt{
+  font-size: 1.5em;
+  color: #252525;
+  margin-left: 14px;
+}
+header.keepup .purple-line{
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #39519e;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+header.keepup .purpletik{
+  color: #39519e;
+  margin-right: 4px;
+}
+
+header.partnership{
+  position: relative;
+  background: url(../images/partnership-ipad.png) no-repeat right;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #384f9b;
+  min-height: 775px;
+}
+header.partnership .heading{
+  font-family: negative-semibold;
+  color: #fff;
+  font-size:2.8em;
+  margin: 0;
+  width: 94%;
+}
+header.partnership p{
+  color: #fff;
+  font-size:1.2em;
+  width: 94%;
+  margin-bottom: 16px;
+}
+header.we-provide{
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #d7d7d7;
+  min-height: 200px;
+  z-index: 1;
+}
+header.we-provide .heading{
+  font-family: negative-light;
+  font-size: 2.1em;
+  margin: 0;
+  margin-bottom: 40px;
+}
+header.we-provide .service-box{
+  background-color: #fff;
+  padding: 18px;
+  min-height: 274px;
+  border-bottom: 4px solid #39519e;
+  margin: auto;
+  margin-bottom: 26px;
+}
+header.we-provide .service-box img{
+  max-width: 80%;
+}
+header.we-provide .service-box p{
+  color: #454545;
+  font-size: 1.3em;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+header.your-success{
+  position: relative;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+header.your-success .heading{
+  font-family: negative-semibold;
+  font-size:2.8em;
+  margin: 0;
+  color: #252525;
+}
+header.your-success p{
+  font-size: 1.4em;
+  color: #5b5b5b;
+}
+header.meeting-background{
+  position: relative;
+  background-color: #000000;
+  background: url("../images/meeting-background.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+header.meeting-background .infoBox{
+  background-color: #000000b5;
+  border-bottom: 8px solid #39519e;
+  padding: 28px;
+  color: #fff;
+}
+header.meeting-background .infoBox .heading{
+  font-family: negative-semibold;
+  font-size: 3.6em;
+  border-left: 4px solid #39519e;
+  padding-left: 20px;
+  margin-top: 38px;
+}
+header.meeting-background .infoBox p{
+  font-size: 1.3em;
+  margin-top: 18px;
+}
+
+/* Landing page footer*/
+.landing-footer{
+  background-color: #000;
+  color: #fff;
+  font-size: .9em;
+  line-height: 1.4em;
+  padding-top: 28px;
+  padding-bottom: 20px;
+}
+.landing-footer .outer-box{
+  display: block;
+  width: 90%;
+  margin: auto;
+  min-height: 55px;
+}
+.landing-footer .purple-line{
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #39519e;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+
+header.do_lunch{
+  position: relative;
+  background-color: #000000;
+  background: url("../images/lunch-banner.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+header.do_lunch .book_lunch_box{
+  background-color: #000000b5;
+  border-bottom: 8px solid #39519e;
+  padding: 28px;
+  color: #fff;
+}
+header.do_lunch .book_lunch_box .heading{
+  font-family: negative-semibold;
+  font-size: 3.6em;
+  padding-bottom: 20px;
+  margin-top: 38px;
+}
+header.do_lunch .book_lunch_box .blueLine{
+  background-color: #39519e;
+  width: 44%;
+  height: 4px;
+  display: block;
+  margin-bottom: 10px;
+}
+header.do_lunch .book_lunch_box p{
+  font-size: 1.3em;
+  margin-top: 18px;
+}
+header.fully_interactive .purpletik{
+  color: #39519e;
+  padding: 5px;
+  background-color: #ebebeb;
+  border-radius: 30px;
+}
+header.fully_interactive{
+  position: relative;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+header.fully_interactive .heading{
+  font-family: negative-semibold;
+  font-size:1.8em;
+  margin: 0;
+  width: 94%;
+  color: #585858;
+}
+header.fully_interactive .infotxt{
+  font-size: 1.4em;
+  font-family: negative-light;
+  color: #252525;
+}
+header.fully_interactive .purple-line{
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #39519e;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+header.lunchSection {
+    min-height: 100px;
+    background: #3a519d;
+}
+header.lunchSection .lunchimgSection img{
+  max-width: 100%;
+}
+.lunch-text {
+    margin-top: 60px;
+    font-size: 1.4em;
+    font-family: negative-light;
+    color:white;
+}
+header.upcomingSection {
+  padding: 74px;
+}
+header.upcomingSection .heading{
+  font-family: negative-semibold;
+  font-size:1.9em;
+  margin: 0;
+  margin-left: 14px;
+  width: 94%;
+}
+.blue-heading{
+  font-family: negative-semibold;
+  color: #39519e;
+  font-size:4em;
+  line-height: 1!important;
+  margin: 0;
+  width: 94%;
+  margin-bottom: 40px;
+}
+
+.calender_icon {
+    background: url(../images/calender.png) no-repeat center center;
+    /* background-size: 100%; */
+    width: 50px;
+    height: 50px;
+}
+
+header.upcomingSection .round-corners{
+  border:solid;
+  background-color: #ebebeb;
+  border-radius: 30px;
+  border-width: 30px;
+  border-color: #ebebeb;
+}
+header.upcomingSection .innerdiv{
+  border:solid;
+  background-color: white;
+  border-radius: 30px;
+  border-color: #ebebeb;
+  padding: 30px;
+}
+header.upcomingSection .infotxt{
+  font-size: 1.6em;
+  font-family: negative-semibold;
+  color: #252525;
+  margin-left: 32px;
+}
+header.upcomingSection .upcoming-text{
+  font-size: 1.8em;
+  margin-top: 30px;
+  font-family: negative-light;
+  color: #252525;
+  margin-left: 14px;
+  line-height: 1.1!important;
+}
+header.upcomingSection .purple-line{
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #39519e;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+
+/* whistler local marketing quiz/ */
+header.whistler{
+  position: relative;
+  background-color: #000000;
+  background: url("../images/whistler-local-marketing.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  z-index: 1;
+}
+header.whistler .book_lunch_box{
+  background-color: #000000b5;
+  border-bottom: 8px solid #39519e;
+  padding: 22px;
+  color: #fff;
+}
+header.whistler .book_lunch_box p{
+  color: #fff;
+  font-family: negative-light;
+  font-size: 1.3em;
+  margin-top: -14px;
+  margin-left: 2px;
+}
+header.whistler .book_lunch_box .heading{
+  font-family: negative-semibold;
+  font-size: 3.4em;
+  padding-bottom: 20px;
+  margin-top: 38px;
+}
+header.whistler_ski{
+  position: relative;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+header.whistler_ski .whistler_content{
+  width: 94%;
+  margin: auto;
+}
+header.whistler_ski .whistler_content .greyBlueTik{
+  background: url(../images/grey-blue-tik.png) no-repeat center center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 1px;
+}
+header.whistler_ski .whistler_content .purpletik{
+  color: #39519e;
+  padding: 5px;
+  background-color: #ebebeb;
+  border-radius: 30px;
+}
+header.whistler_ski .whistler_content .infotxt{
+  font-size: 1.3em;
+  font-family: negative-light;
+  color: #252525;
+  margin-bottom: 26px;
+}
+header.whistler_ski .whistler_content .purple-line{
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #39519e;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+header.quickQuizSection {
+  min-height: 100px;
+  background: #3a519d;
+  padding-bottom: 20px;
+}
+header.quickQuizSection .heading{
+  font-family: negative-semibold;
+  font-size: 2.7em;
+  padding-bottom: 20px;
+  margin-top: 38px;
+  color: #fff;
+  text-align: center;
+}
+header.quickQuizSection .white-box{
+  margin: auto;
+  background: #fff;
+  min-height: 340px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 94%;
+}
+header.quickQuizSection p{
+  font-family: negative-light;
+  font-size: 1.8em;
+  color: #fff;
+  text-align: center;
+}
+
+header.getInShapeSection{
+  position: relative;
+  min-height: 100px;
+  /*background: #EAEAEA;*/
+  background-color: #000000;
+  background: url("../images/get-in-shape-background.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header .mainoverlay {
+  position: absolute;
+  background-color: #0a0a0a;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+header.getInShapeSection .getInShapeBox{
+  min-height: 100px;
+  background: #fff;
+  margin: auto;
+  margin-top: 54px;
+  margin-bottom: 54px;
+  width: 94%;
+}
+header.getInShapeSection .getInShapeBox img{
+  max-width: 100%;
+}
+header.getInShapeSection .getInShapeBox .infoSection{
+  padding: 52px 52px 0px 52px;
+}
+header.getInShapeSection .getInShapeBox .infoSection p{
+  color: #555;
+  font-size: 1.2em;
+  padding: 5px
+}
+header.getInShapeSection .getInShapeBox .infoSection .shape-button{
+  font-family: negative-light;
+  background: #39519e;
+  color: #fff!important;
+  font-size: 1.8em;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 26px 0px;
+  display: inline-block;
+}
+header.getInShapeSection .getInShapeBox .infoSection .shape-button:hover{
+  text-decoration: none;
+  opacity: .8;
+}
+header.logoSection{
+  background-color: #fff;
+  padding: 18px 2px;
+}
+header.logoSection img{
+  max-width: 100%;
+  padding: 8px 0px;
+}
+header.quoteSection{  
+  box-shadow: 7px 12px 14px -14px #666 inset;
+  min-height: 100px;
+  background-color: #EAEAEA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: negative-light;
+}
+header.quoteSection .quoteBox{  
+  min-height: 100px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #333;
+  border-top: 1px solid #333;
+  position: relative;
+}
+header.quoteSection .quoteBox .comma-left{  
+  background: url(../images/comma-left-bk.png) no-repeat center center;
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  top: -38px;
+  left: 46px;
+}
+header.quoteSection .quoteBox .info-box{  
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 5px;
+  font-size: 1.4em;
+}
+header.quoteSection .quoteBox .comma-right{  
+  background: url(../images/comma-right-bk.png) no-repeat center center;
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    bottom: -38px;
+    right: 46px;
+}
+header.quoteSection .circleBox{  
+  margin: auto;
+  text-align: center;
+  width: 80%;  
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+header.quoteSection .circleBox .cicrleImg{  
+  width: 110px;
+  height: 109px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+header.packagesSection{
+  background-color: #fff;
+  min-height: 400px;
+}
+header.packagesSection .mainHeading{
+  color: #222;
+  font-family: negative-semibold;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+header.packagesSection .purpleLine{  
+  background: #413AA1;
+  height: 3px;
+  width: 70px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+header.packagesSection .infoText{  
+  color: #222;
+  text-align: center;
+  font-family: negative-light;
+  font-size: 1.1em;
+}
+header.packagesSection .packagesContent{
+  width: 88%;
+  margin: auto;
+  margin-top: 26px;
+}
+header.packagesSection .packagesContent .packageBox{
+  background-color: #fff;
+  min-height: 400px;
+  margin-bottom: 24px;
+}
+header.packagesSection .packagesContent .packageBox .packageFooter{
+  background-color: #423CA0;
+  min-height: 100px;
+  padding: 1px;
+}
+header.packagesSection .packagesContent .packageBox .packageFooter h2{
+  color: #fff;
+  text-align: center;
+  font-family: negative-semibold;
+  margin-top: 0px;
+  padding: 14px;
+  margin-bottom: -10px;
+  font-size: 2.5em;
+}
+header.packagesSection .packagesContent .packageBox .packageFooter p{
+  color: #fff;
+  text-align: center;
+  font-family: negative-light;
+  font-size: 1.1em;
+  padding: 2px;
+}
+header.packagesSection .packagesContent .packageBox .packageFooter a{
+  color: #fff;
+  text-decoration: none;
+}
+header.packagesSection .packagesContent .packageBox .packageFooter .whileLine{
+  background: #EFEFF7;
+  height: 2px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+header.packagesSection .packagesContent .packageBox .packageFooter h3{
+  color: #fff;
+  text-align: center;
+  font-family: negative-light;
+  font-size: 1.7em;
+  margin-top: 0px;
+  padding: 8px;
+}
+header.packagesSection .packagesContent .packageBox .heading{
+  background: url(../images/cut-heading.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-size: cover;*/
+  background-size: 100% 100%;
+  height: 74px;
+  padding: 22px 42px;
+  width: 100%;
+}
+header.packagesSection .packagesContent .packageBox .packageBoxContent{
+  background-color: #EAEAEA;
+  min-height: 200px;
+  padding: 36px;
+}
+header.packagesSection .packagesContent .packageBox .packageBoxContent .purpleLine{
+  background: #413AA1;
+  height: 1px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+header.packagesSection .packagesContent .packageBox .packageBoxContent h3{
+  font-family: negative-semibold;
+  font-size: 1.6em;
+  margin-top: 0px;
+}
+header.packagesSection .packagesContent .packageBox .packageBoxContent p{
+  font-family: negative-light;
+  font-size: 1.3em;
+  margin-left: -6px;
+}
+header.packagesSection .packagesContent .packageBox .packageBoxContent .whiteBlueTik{
+  background: url(../images/white-blue-tik.png) no-repeat center center;
+  width: 22px;
+  height: 22px;
+  float: left;
+  margin-top: 4px;
+}
+header.packagesSection .packagesContent .packageBox .heading .headText{
+  color: #fff;
+  font-family: negative-semibold;
+  font-size: 2em;
+  margin-left: 20px;
+  margin-top: -7px;
+  float: left;
+}
+header.packagesSection .greenCircle{
+  background: url(../images/circle-icon.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 26px;
+  height: 26px;
+  float: left;
+}
+header.packagesSection .greenCircleInTxt{
+  background: url(../images/circle-icon.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 26px;
+  height: 26px;
+  display: -webkit-inline-box;
+  margin-bottom: -6px;
+}
+header.packagesSection .blueSquare{
+  background: url(../images/square-icon.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 26px;
+  height: 26px;
+  float: left;
+}
+header.packagesSection .blackSquare{
+  background: url(../images/square-black-icon.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  float: left;
+  margin-left: -2px;
+}
+header.packagesSection .blueSquareInTxt{
+  background: url(../images/square-icon.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 26px;
+  height: 26px;
+  display: -webkit-inline-box;
+  margin-bottom: -6px;
+}
+header.packagesSection .blackSquareInTxt{
+  background: url(../images/square-black-icon.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  display: -webkit-inline-box;
+  margin-bottom: -8px;
+}
+header.startBefore{
+  position: relative;
+  min-height: 186px;
+  background-color: #000000;
+  background: url("../images/start-before-background.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  padding: 34px;
+}
+header.startBefore .startBeforeContent{
+  width: 84%;
+  margin:auto;
+}
+header.startBefore .startBeforeContent h1{
+  color: #fff;
+  font-size: 7em;
+  font-family: negative-semibold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+header.startBefore .startBeforeContent h4{
+  color: #fff;
+  font-size: 1.5em;
+  font-family: negative-light;
+  margin-top: 0px;
+}
+header.startBefore .startBeforeContent p{
+  color: #fff;
+  font-family: negative-light;
+  font-size: 1.2em;
+}
+header.startBefore .startBeforeContent .purpleVLine{
+  top: 0;
+  width: 3px;
+  height: 124px;
+  background-color: #413AA1;
+  float: right;
+  right: 0;
+}
+header.startBefore .startBeforeContent .getStartedButton{
+  background-color: #413AA1;
+  font-family: negative-light;
+  font-size: 1.6em;
+  color: #fff;
+  padding: 3px 34px;
+  margin-top: 20px;
+  display: block;
+  width: 91%;
+}
+header.startBefore .startBeforeContent .leftArrow{
+  background: url(../images/left-arrow-con.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  width: 24px;
+  height: 20px;
+  display: -webkit-inline-box;
+  margin-bottom: -4px;
+  margin-left: 86px;
+}
+header.marketingPassSection {
+  min-height: 100px;
+  background: #E0E0E0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header.marketingPassSection .white-box{
+  margin: auto;
+  background: #fff;
+  min-height: 200px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 94%;
+}
+header.marketingPassSection .white-box .white-content{
+  width: 98%;
+  margin: auto;
+  padding: 4% 2%;
+}
+header.marketingPassSection .white-box .white-content h3{
+  font-size: .9em;
+  line-height: 2em;
+  font-weight: 900;
+}
+header.marketingPassSection .white-box .white-content input{
+  background: #F3F3F3;
+}
+header.marketingPassSection .white-box .white-content textarea{
+  background: #F3F3F3;
+}
+.purpleButton{
+  background: #413AA1!important;
+  color: #fff;
+  margin-left: 15px;
+}
+.purpleButton:hover{
+  background: #fff!important;
+  color: #413AA1;
+}
+@media (max-width: 767px) {
+  header.partnership{
+    background:none;
+    background-color: #384f9b;
+  }
+  .row{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .navbar .purple-line{display: none;}
+  header.keepup .purple-line{display: none;}
+  .landing-footer .purple-line{display: none;}
+  .purple-button{font-size: 2em;}
+  .dark-button{font-size: 2em;}
+  header.meeting-background .infoBox{padding: 18px;}
+  header.upcomingSection {padding: 10px;}
+  header.upcomingSection .purple-line{display: none;}
+  header.upcomingSection .blue-heading{font-size: 3em;margin-bottom: 24px;}
+  /*.calender_icon{display: none;}*/
+  header.upcomingSection .heading{margin: auto;width: 100%;font-size: 1.8em;}
+  header.upcomingSection .infotxt{margin: 0px;width: 100%;margin-bottom: 10px;font-size: 1.5em;}
+  header.upcomingSection .upcoming-text{margin: auto;margin-top: 20px;}
+  .landing-footer .outer-box{margin: auto;}
+  header.fully_interactive .purpletik{display: none;}
+  header.do_lunch .purple-button{font-size: 1.6em;}
+  header.upcomingSection .innerdiv{padding: 5px;}
+  header.upcomingSection .round-corners{border-radius: 18px;border-width:18px;}
+  header.upcomingSection .innerdiv{border-radius: 18px;border-color: #ebebeb;padding: 12px;}
+  header.upcomingSection .infotxt{margin-left: -15px;}
+  header.lunchSection .lunchimgSection{margin-left: -15px;margin-right: -15px;}
+  .clenderBox{padding-bottom: 26px;}
+  header.upcomingSection .clenderBox .infotxt{margin-left: 16px;}
+  header.getInShapeSection .getInShapeBox img{max-width: 100%;}
+  header.whistler_ski .whistler_content .purpletik{display: none;}
+  header.whistler_ski .whistler_content .purple-line{display: none;}
+  header.getInShapeSection .getInShapeBox .infoSection{padding: 10px;}
+  header.getInShapeSection .getInShapeBox .infoSection .shape-button{font-size: 1.5em;}
+  header.whistler .book_lunch_box .heading{font-size: 3.2em;}
+  header.whistler_ski .whistler_content .greyBlueTik{width: 26px;height: 26px;border-radius: 50%;margin-right:6px;margin-left: -15px;}
+  header.logoSection img{margin: auto;padding: 14px 0px;display: block;}
+  header.startBefore .startBeforeContent .getStartedButton{width: 100%;}
+  header.startBefore .startBeforeContent .purpleVLine{display: none;}
+  header.startBefore .startBeforeContent .leftArrow{margin-left: 8px;}
+  header.startBefore .startBeforeContent h1{font-size: 3em;}
+  header.startBefore .startBeforeContent h4{font-size: 1.4em;}
+  header.packagesSection .packagesContent .packageBox .heading{padding: 22px 22px;height: 60px;}
+  header.packagesSection .packagesContent .packageBox .heading .headText{font-size: 1.3em;margin-left: 10px;margin-top: -3px;}
+  header.packagesSection .blackSquare{width: 20px;height: 20px;margin-left: -1px;}
+  header.packagesSection .blueSquare{width: 20px;height: 20px;}
+  header.packagesSection .greenCircle{width: 20px;height: 20px;}
+}
+.clenderBox{
+  width: 154px;
+  /*margin:auto;*/
+  position: relative;
+  padding-bottom: 10px;
+}
+.clenderBox p{
+  position: absolute;
+  top: 9px;
+  left: 37px;
+}
+header.upcomingSection .innerdiv .info{
+  font-size: 1.3em;
+  /*margin-top: 10px;*/
+  padding: 10px;
+}
+.purpleText{
+  color: #413AA1;
+}
+
+/* Digital marketing design start */
+header.digital-marketing-thanks{
+  position: relative;
+  background: url(../images/digital-marketing-thank-bg.png) no-repeat right;
+  background-size: 100% 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #384f9b;
+  min-height: 600px;
+}
+header.digital-marketing-thanks .thanks_box{
+  position: absolute;
+  width: 100%;
+  margin-top: 25%;
+  background-color: #fff;
+  min-height: 200px;
+}
+header.digital-marketing-thanks .thanks_box .DM-thanku-logo{  
+  max-width: 110px;
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+}
+header.digital-marketing-thanks .thanks_box .grey_line{  
+  width: 84%;
+  margin: auto;
+  display: block;
+  height: 1px;
+  background-color: #a1a1a1;
+  margin-top: 20px;
+}
+header.digital-marketing-thanks .thanks_box .thanku-txt{  
+  margin: auto;
+  display: block;
+  color: #000;
+  text-align: center;
+  line-height: 2.4em;
+  font-size: 2.4em;
+}
+header.digital-marketing-thanks .thanks_box .home-page-link{  
+  margin: auto;
+  display: table;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1em;
+  background: #39519e;
+  padding: 6px 18px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+header.digital-marketing-thanks .thanks_box .home-page-link:hover{
+  text-decoration: none;
+  opacity: 0.8;
+}
+header.digital-marketing-thanks .thanks_box .home-page-link .glyphicon-arrow-right{  
+  color: #000;
+  margin-left: 26px;
+}
+.contact-page-link{  
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  background: #39519e;
+  padding: 7px 18px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  float: right;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.contact-page-link:hover{
+  text-decoration: none;
+  opacity: 0.8;
+  color: #fff;
+}
+/* Digital marketing design end */

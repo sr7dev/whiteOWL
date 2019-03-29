@@ -1,0 +1,4 @@
+[06-Dec-2018 10:02:31 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
+[06-Dec-2018 12:43:47 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
+[06-Dec-2018 22:35:58 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[07-Dec-2018 05:11:09 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22

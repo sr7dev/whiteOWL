@@ -1,0 +1,8 @@
+[14-Sep-2018 09:26:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/404.php on line 13
+[14-Sep-2018 13:49:30 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/404.php on line 13
+[14-Sep-2018 16:55:37 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/footer.php on line 22
+[21-Sep-2018 00:21:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/404.php on line 13
+[30-Sep-2018 01:56:07 UTC] PHP Notice:  Undefined index: wp_version in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/functions.php on line 15
+[30-Sep-2018 01:56:07 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/functions.php on line 16
+[30-Sep-2018 07:50:33 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/footer.php on line 22
+[07-Mar-2019 16:40:18 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/themes/twentyseventeen/404.php on line 13

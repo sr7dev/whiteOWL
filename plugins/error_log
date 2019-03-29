@@ -1,0 +1,2 @@
+[20-Sep-2018 15:34:50 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/plugins/hello.php on line 59
+[20-Sep-2018 15:34:56 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/wowseosolutions/public_html/whiteowl.agency/wp-content/plugins/hello.php on line 59
