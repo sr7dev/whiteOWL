@@ -83,6 +83,7 @@
             <li><a href="/web-design">Web Design</a></li>
             <li><a href="/web-development">Web Development</a></li>
             <li><a href="/white-label-marketing">White Label Marketing</a></li>
+			<li><a href="/whistler-digital-marketing">Whistler Digital Marketing Agency</a></li>
           </ul>
         </li>
         <li><a href="/contact-us">Contact Us</a></li>
