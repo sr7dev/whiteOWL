@@ -2,11 +2,9 @@
 /**
  * Template Name: Custom Page Template
  */
-
 get_header();
 ?>
- 
-<?php
+ <?php
     while ( have_posts() ) : the_post();
         the_content();
     endwhile;
