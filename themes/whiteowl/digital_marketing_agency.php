@@ -29,8 +29,6 @@
       return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
     }
     $preview = getParameterByName("preview");
-
-
     if( $preview == "" ){
       // do nothing
     } else if( $preview == "control" ){
